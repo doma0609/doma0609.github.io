@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+h1{
+  font-size: 60px;
+  color: yellow;
+  text-align: center;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-radius: 40px;
+}
+p{
+  color: yellow;
+  font-family: cursive;
+  text-align: center;
+  font-size: 25px;
+}
+img{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+@media screen and (max-width: 900px){
+  img{
+    width: 100%; 
+  }
+}
